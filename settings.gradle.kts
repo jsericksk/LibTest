@@ -16,9 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
 rootProject.name = "LibTest"
 include(":app")
-include(":ui-components")
+//include(":ui-components")
+include(":data-components")
