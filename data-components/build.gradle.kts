@@ -48,6 +48,9 @@ publishing {
         register<MavenPublication>("release") {
             afterEvaluate {
                 from(components["release"])
+                groupId = "com.kproject.testlib"
+                artifactId = "data_components"
+                version = "4.0"
             }
         }
     }

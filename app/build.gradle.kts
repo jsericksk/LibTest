@@ -57,7 +57,7 @@ android {
 dependencies {
     // implementation(project(":ui-components"))
 
-    implementation("com.github.jsericksk:LibTest:1.0")
+    implementation("com.github.jsericksk:LibTest:v3.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
