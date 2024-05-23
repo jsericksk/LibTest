@@ -22,5 +22,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "LibTest"
 include(":app")
-//include(":ui-components")
+include(":ui-components")
 include(":data-components")

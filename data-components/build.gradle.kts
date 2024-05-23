@@ -49,7 +49,7 @@ publishing {
             afterEvaluate {
                 from(components["release"])
                 groupId = "com.kproject.testlib"
-                artifactId = "data_components"
+                artifactId = "data-components"
                 version = "4.0"
             }
         }

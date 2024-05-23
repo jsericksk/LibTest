@@ -21,7 +21,6 @@ class MainActivity : ComponentActivity() {
             LibTestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(modifier = Modifier.padding(innerPadding)) {
-                        CustomText(text = "Test")
                         //CustomSlider(value = 50f)
                         TestData()
                     }
